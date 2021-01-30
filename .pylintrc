@@ -1,0 +1,18 @@
+[MESSAGES CONTROL]
+
+disable=
+    attribute-defined-outside-init,
+    duplicate-code,
+    invalid-name,
+    missing-docstring,
+    protected-access,
+    too-few-public-methods,
+    no-member,
+    raise-missing-from,
+    no-self-use,
+    unsubscriptable-object,
+    redefined-outer-name,
+    # handled by black
+    format,
+    # handled by isort
+    wrong-import-order

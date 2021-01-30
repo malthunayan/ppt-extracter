@@ -1,0 +1,21 @@
+{
+  // Environment
+  "python.pythonPath": ".venv/bin/python",
+
+  // Linting
+  "python.linting.enabled": true,
+  "python.linting.pylintEnabled": true,
+  "python.linting.mypyEnabled": true,
+  "python.linting.pycodestyleArgs": ["--ignore=E501,E266"],
+
+  // Formating
+  "editor.formatOnSave": true,
+  "python.formatting.provider": "black",
+  "[python]": {
+    // Override default formatter for python files
+    "editor.defaultFormatter": null,
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": true
+    }
+  }
+}
